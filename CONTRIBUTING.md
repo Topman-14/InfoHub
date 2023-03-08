@@ -23,7 +23,7 @@ To create a new branch where you will make changes, use this command: `git check
 - If you have been assigned an issue, endeavour to create a new branch and make your changes. For your code to be merged, refrain from pushing from the main branch.
 - Upon making a pull request, your pull request should only contain a change at a time. Raise different pull requests for the other changes you will like to make.
 - Kindly be informed that any PR that modifies someone else's lines(s) of code won't be merged unless it is absolutely necessary.
-- Contributions or any kind will be much appreciated too, be it fixing grammatical errors, fixing broken links, etc. If the contribution is  minimal, go ahead to create a pull request, else raise an issue before making your contribution.
+- Contributions of any kind will be much appreciated too, be it fixing grammatical errors, fixing broken links, etc. If the contribution is  minimal, go ahead to create a pull request, else raise an issue before making your contribution.
 
 ### Commit messages
 - When writing your commit messages:
