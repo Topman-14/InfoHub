@@ -7,10 +7,12 @@
     --secondary-color: rgb(238, 237, 237);
     --active-link-bgcolor: rgb(0, 0, 0);
     --active-link-color: rgb(255, 255, 255);
+    --primary-font: 'Jost', sans-serif;
 }
 body{
     margin: 0px;
     background-color: var(--body-color);
+    font: 500 1.2em var(--primary-font);
 }
 #main-navbar{
     display: flex;
@@ -54,4 +56,3 @@ hr{
     width: 70%;
     background-color: rgb(145, 142, 142);
 }
-
