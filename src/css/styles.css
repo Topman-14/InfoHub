@@ -34,8 +34,8 @@ nav > ul{
     text-decoration: none;
     background-color: var(--secondary-color);
     color: var(--accent-color);
-    border-radius: 20px;
-    padding: 8px;
+    border-radius: 18px;
+    padding: 10px;
 }
 nav>ul>li{
     transition: 0.2s;
@@ -54,18 +54,49 @@ nav>ul>li:hover{
 hr{
     margin-top: 10px;
     width: 70%;
-    background-color: rgb(145, 142, 142);
 }
-/*Footer Bottom*/
+.footer-hr{
+    margin-top: 10px;
+    width: 70%;
+    bottom: 42.5px;
+    background-color: rgb(145, 142, 142);
+    position: absolute;
+}
 .footer-bottom{
-    background: #000;
+    background: var(--accent-color);
     width: 100vw;
-    padding: 20px 0;
+    padding: 1px 0;
     text-align: center;
 }
 .footer-bottom p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
-    color: #ffffff;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: var(--body-color);
+}
+#footer p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+#footer-nav{
+    position: relative;
+    bottom: 30px;
+    font-size: 1rem;
 }
