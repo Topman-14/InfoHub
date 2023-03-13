@@ -1,100 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./home.css" />
-    <title>InfoHub | Home</title>
-  </head>
-  <body>
-    <nav id="main-navbar">
-      <img id="logo" src="\assets\logo-1.png" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/css/styles.css" />
+  <link rel="stylesheet" href="/src/css/home.css" />
+  <title>InfoHub | Home</title>
+</head>
+
+<body>
+  <nav id="main-navbar">
+    <img id="logo" src="\assets\logo-1.png" alt="" />
+    <ul>
+      <li><a class="nav-link" href="./index.html">Home</a></li>
+      <li><a class="nav-link" href="#">Categories</a></li>
+      <li><a class="nav-link" href="#">Contributors</a></li>
+      <li>
+        <a href="#"><img class="github-logo" src="\assets\icons\github.png" alt="" /></a>
+      </li>
+    </ul>
+  </nav>
+  <hr />
+  <section id="hero">
+    <h2>Greetings!!</h2>
+    <p>
+      Welcome to InfoHub, your go-to source for breaking news, current events,
+      and in-depth analysis of the issues that matter most. We strive to bring
+      you the latest news from around the world, covering everything from
+      politics and business to sports and entertainment, brought to you by a
+      group of passionate developers.
+    </p>
+  </section>
+  <hr />
+  <section id="top-picks">
+    <h2>Top Picks</h2>
+    <div id="news-grid">
+      <a href="">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </a>
+      <a href="">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </a>
+      <a href="">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </a>
+      <a href="">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </a>
+      <a href="">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </a>
+    </div>
+  </section>
+  <section id="footer">
+    <p>
+      Whether you're looking for up-to-the-minute updates on the latest
+      breaking news or in-depth coverage of the issues that shape our world,
+      InfoHub has you covered. With a commitment to providing reliable
+      information, InfoHub is your trusted source for news and analysis.
+    </p>
+    <nav id="footer-nav">
       <ul>
         <li><a class="nav-link" href="./index.html">Home</a></li>
         <li><a class="nav-link" href="#">Categories</a></li>
         <li><a class="nav-link" href="#">Contributors</a></li>
         <li>
-          <a href="#"
-            ><img class="github-logo" src="\assets\icons\github.png" alt=""
-          /></a>
+          <a href="#"><img class="github-logo" src="\assets\icons\github.png" alt="github" /></a>
         </li>
       </ul>
     </nav>
-    <hr />
-    <section id="hero">
-      <h2>Greetings!!</h2>
-      <p>
-        Welcome to InfoHub, your go-to source for breaking news, current events,
-        and in-depth analysis of the issues that matter most. We strive to bring
-        you the latest news from around the world, covering everything from
-        politics and business to sports and entertainment, brought to you by a
-        group of passionate developers.
-      </p>
-    </section>
-    <hr />
-    <section id="top-picks">
-      <h2>Top Picks</h2>
-      <div id="news-grid">
-        <a href="">
-          <img src="" alt="" />
-          <p></p>
-          <p></p>
-        </a>
-        <a href="">
-          <img src="" alt="" />
-          <p></p>
-          <p></p>
-        </a>
-        <a href="">
-          <img src="" alt="" />
-          <p></p>
-          <p></p>
-        </a>
-        <a href="">
-          <img src="" alt="" />
-          <p></p>
-          <p></p>
-        </a>
-        <a href="">
-          <img src="" alt="" />
-          <p></p>
-          <p></p>
-        </a>
-      </div>
-    </section>
-    <section id="footer">
-      <p>
-        Whether you're looking for up-to-the-minute updates on the latest
-        breaking news or in-depth coverage of the issues that shape our world,
-        InfoHub has you covered. With a commitment to providing reliable
-        information, InfoHub is your trusted source for news and analysis.
-      </p>
-      <br><br>
-      <nav id="footer-nav">
-        <ul>
-          <li><a class="nav-link" href="./index.html">Home</a></li>
-          <li><a class="nav-link" href="#">Categories</a></li>
-          <li><a class="nav-link" href="#">Contributors</a></li>
-          <li>
-            <a href="#"
-              ><img class="github-logo" src="\assets\icons\github.png" alt="github"
-            /></a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer-bottom">
-        <p>copyright &copy;2023 TU Designers and Developers.</p>
-      </div>
-      <hr class="footer-hr"/>
-    </section>
-    <script src="/src/js/script.js"></script>
-  </body>
+    <div class="footer-bottom"></div>
+    <hr class="footer-hr" />
+  </section>
+  <script src="/src/js/script.js"></script>
+</body>
+
 </html>
