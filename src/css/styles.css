@@ -13,7 +13,7 @@
 body {
     margin: 0px;
     background-color: var(--body-color);
-    font: 500 1.2em var(--primary-font);
+    font: 500 1.1em var(--primary-font);
 }
 
 #main-navbar {
