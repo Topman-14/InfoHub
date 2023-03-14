@@ -1,5 +1,5 @@
 /*This sheet contains general styles used throughout the website*/
-:root{
+:root {
     --text-color: rgb(22, 22, 22);
     --heading-color: rgb(68, 68, 68);
     --body-color: #ffffff;
@@ -9,20 +9,24 @@
     --active-link-color: rgb(255, 255, 255);
     --primary-font: 'Jost', sans-serif;
 }
-body{
+
+body {
     margin: 0px;
     background-color: var(--body-color);
     font: 500 1.1em var(--primary-font);
 }
-#main-navbar{
+
+#main-navbar {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
 }
-#logo{
+
+#logo {
     height: 40px;
 }
-nav > ul{
+
+nav>ul {
     list-style-type: none;
     display: flex;
     gap: 18px;
@@ -30,29 +34,78 @@ nav > ul{
     margin: 0px;
     align-items: center;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     background-color: var(--secondary-color);
     color: var(--accent-color);
     border-radius: 20px;
     padding: 8px;
 }
-nav>ul>li{
+
+nav>ul>li {
     transition: 0.2s;
 }
-nav>ul>li:hover{
+
+nav>ul>li:hover {
     transform: scale(1.1);
-    }
-.nav-link[aria-current ="page"]{
+}
+
+.nav-link[aria-current= "page"] {
     background-color: var(--active-link-bgcolor);
     color: var(--active-link-color);
 }
 
-.github-logo{
+.github-logo {
     height: 35px;
 }
-hr{
+
+hr {
     margin-top: 10px;
     width: 70%;
+}
+
+.footer-hr {
+    margin-top: 10px;
+    width: 70%;
+    bottom: 26px;
     background-color: rgb(145, 142, 142);
+    position: absolute;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--accent-color);
+    height: auto;
+    width: 100vw;
+    padding-top: 1px;
+    color: var(--body-color);
+}
+
+#footer p {
+    max-width: 70%;
+    margin: 55px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+#footer-nav {
+    position: relative;
+    font-size: 1rem;
+    bottom: 30px;
+    right: 20vw;
+}
+
+.footer-bottom {
+    background: var(--accent-color);
+    width: 100vw;
+    min-height: 40px;
 }
