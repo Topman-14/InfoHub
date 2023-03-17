@@ -101,17 +101,3 @@ hr {
     bottom: 30px;
     right: 20vw;
 }
-::-webkit-scrollbar{
-    width: 0.5em;
-    height: 0em;
-}
-::-webkit-scrollbar-track{
-    background: #ffffff;
-}
-::-webkit-scrollbar-thumb{
-    background: rgb(145, 142, 142);
-    border-radius: 10vw;
-}
-::-webkit-scrollbar-thumb:hover{
-    background: rgb(82, 82, 85);
-}
