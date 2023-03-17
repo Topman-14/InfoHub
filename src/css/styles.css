@@ -70,10 +70,6 @@ hr {
     width: 70%;
 }
 
-.footer-hr {
-    background-color: rgb(145, 142, 142);
-}
-
 #footer {
     display: flex;
     align-items: center;
