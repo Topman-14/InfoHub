@@ -9,11 +9,16 @@
     --active-link-color: rgb(255, 255, 255);
     --primary-font: 'Jost', sans-serif;
 }
-
+html{
+    height: 100%;
+}
 body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     margin: 0px;
     background-color: var(--body-color);
-    font: 500 1.1em var(--primary-font);
+    font: 500 1.2em var(--primary-font);
 }
 
 #main-navbar {
@@ -66,11 +71,7 @@ hr {
 }
 
 .footer-hr {
-    margin-top: 10px;
-    width: 70%;
-    bottom: 26px;
     background-color: rgb(145, 142, 142);
-    position: absolute;
 }
 
 #footer {
@@ -79,19 +80,16 @@ hr {
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background: var(--accent-color);
     height: auto;
     width: 100vw;
+    margin-top: auto;
     padding-top: 1px;
     color: var(--body-color);
 }
 
 #footer p {
-    max-width: 70%;
+    width: 70%;
     margin: 55px auto;
     line-height: 28px;
     font-size: 14px;
@@ -103,9 +101,17 @@ hr {
     bottom: 30px;
     right: 20vw;
 }
-
-.footer-bottom {
-    background: var(--accent-color);
-    width: 100vw;
-    min-height: 40px;
+::-webkit-scrollbar{
+    width: 0.5em;
+    height: 0em;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(145, 142, 142);
+    border-radius: 10vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(82, 82, 85);
 }
