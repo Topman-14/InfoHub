@@ -1,0 +1,106 @@
+/* THE STYLESHEET FOR PRACTICING GRID AND FLEXBOX */
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: blue;
+}
+
+/* FOR FLEXBOX -  ALL CONCEPTS. */
+.flex-container,
+.grid-cointainer {
+    min-height: 100%;
+}
+
+:is(.flex-container, .grid-cointainer)>div {
+    background-color: black;
+    color: white;
+    border: 1px solid yellow;
+    height: 200px;
+    width: 200px;
+}
+
+/* JUST EDIT TO START YOUR LEARNING. */
+/* ========================================= */
+
+.flex-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 200px 100px;
+    grid-auto-rows: minmax(100px, auto);
+    align-content: center;
+    justify-content: end;
+    width: 100%;
+    justify-items: end;
+    align-items: start;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* flex-wrap: nowrap; */
+}
+
+/* FOR THE FLEX ITEMS  */
+.flex-item-1 {
+    /* align-self: center; */
+    /* justify-self: start; */
+    /* order: 4; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    /* flex-basis: 0; */
+    /*shorthand*/
+    /* flex: 2 4 0; */
+}
+
+.flex-item-2 {
+    align-self: ;
+    /* justify-self: flex-start; */
+    /* order: 3; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 4; */
+    flex-basis: ;
+    /*shorthand*/
+    /* flex: 2 1 1; */
+}
+
+.flex-item-3 {
+    /* align-self: center; */
+    justify-self: ;
+    /* order: 2; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 6; */
+    flex-basis: ;
+    /*shorthand*/
+    flex: ;
+}
+
+.flex-item-4 {
+    /* align-self: ; */
+    justify-self: ;
+    /* order: 1; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 8; */
+    /* flex-basis: 100; */
+    /*shorthand*/
+    flex: ;
+}
+
+/* FOR THE GRID ITEMS */
+.grid-item-1 {
+    grid-column: ;
+    grid-row: ;
+}
+
+.grid-item-2 {
+    grid-column: ;
+    grid-row: ;
+}
+
+.grid-item-3 {
+    grid-column: ;
+    grid-row: ;
+}
+
+.grid-item-4 {
+    grid-column: ;
+    grid-row: ;
+}
