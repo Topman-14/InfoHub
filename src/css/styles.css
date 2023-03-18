@@ -81,10 +81,10 @@ hr {
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    /* position: absolute; */
-    /* bottom: 0; */
-    /* left: 0; */
-    /* right: 0; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: var(--accent-color);
     height: auto;
     width: 100vw;
