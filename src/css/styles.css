@@ -102,3 +102,17 @@ h2{
     width: auto;
     margin-block: 30px;
 }
+::-webkit-scrollbar{
+    width: 0.5em;
+    height: 0em;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0)
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(145, 142, 142);
+    border-radius: 10vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(82, 82, 85);
+}
