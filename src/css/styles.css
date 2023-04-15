@@ -45,6 +45,7 @@ nav>ul {
     color: var(--accent-color);
     border-radius: 20px;
     padding: 8px;
+    font-size: 0.8em;
 }
 
 nav>ul>li {
