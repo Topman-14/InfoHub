@@ -1,0 +1,115 @@
+:root {
+    /* Some Utility Variable style values. */
+    --general-border-radius: 10px;
+    --general-section-margin: 1.5rem;
+}
+
+#hero {
+    padding-inline: 10px;
+    max-width: 1200px;
+    margin: var(--general-section-margin);
+}
+
+h2 {
+    color: var(--heading-color);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
+/* FROM HERE - THE HOMEPAGE GRID - TOP PICKS SECTION */
+#top-picks {
+    margin: var(--general-section-margin);
+}
+
+#news-grid {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "first second third"
+        "fourth second fifth"
+    ;
+    grid-gap: 1rem;
+}
+
+/* the anchor tag. */
+a {
+    border-radius: var(--general-border-radius);
+    overflow: hidden;
+    width: 100%;
+    max-height: 200px;
+    position: relative;
+    color: white;
+}
+
+a:hover img {
+    scale: 1.5;
+}
+
+a img {
+    min-height: 100%;
+    object-fit: cover;
+    width: 100%;
+    transition: scale .3s ease-in;
+}
+
+/* Span out the following images. */
+a:nth-of-type(1) {
+    grid-area: first;
+}
+
+a:nth-of-type(2) {
+    /* this is the spanned image. */
+    grid-area: second;
+    min-height: 100%;
+}
+
+a:nth-of-type(3) {
+    grid-area: third;
+}
+
+a:nth-of-type(4) {
+    grid-area: fourth;
+}
+
+a:nth-of-type(5) {
+    grid-area: fifth;
+}
+
+/* for each news tag, and news content in the image link */
+.news-tag,
+.news-content {
+    position: absolute;
+    padding: 1rem;
+    font-size: 1rem;
+    z-index: 1;
+}
+
+.news-tag {
+    font-weight: 400;
+    font-size: .9rem;
+    background-color: var(--heading-color);
+    margin: 1rem;
+    padding: .2rem .3rem;
+    margin-bottom: var(--general-section-margin);
+    border-radius: 20px;
+    top: 4rem;
+}
+
+.news-content {
+    margin-top: 0;
+    top: 6rem;
+}
+
+/* THE SPECIAL TAG (the middle one) */
+
+/* for all paragraph tags inside the spanned anchor tag */
+a:nth-of-type(2) p {
+    top: 19.5rem;
+}
+
+/* the news tag in the spanned anchor tag */
+a:nth-of-type(2) .news-tag {
+    top: 17.5rem;
+}
