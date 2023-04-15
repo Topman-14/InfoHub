@@ -22,6 +22,9 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
+    /* position: fixed; */
+    top: 0;
+    transition: top 0.3s;
 }
 
 #logo {
@@ -110,4 +113,41 @@ hr {
     background: var(--accent-color);
     width: 100vw;
     min-height: 40px;
+    margin: 10px auto;
+    width: 70%;
+}
+
+section{
+    padding-inline: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+h2{
+    color: var(--heading-color);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#footer {
+    padding: 5% 15% 0px 15%;
+    background: var(--accent-color);
+    height: 30vh;
+    color: var(--body-color);
+    font-size: 0.85em;
+}
+
+#footer-nav > ul {
+    padding: 0;
+    margin-block: 20px;
+}
+#footer-nav {
+    font-size: 1rem;
+    width: 70%;
+    max-width: 400px;
+}
+#footer > hr{
+    width: auto;
+    margin-block: 30px;
 }
