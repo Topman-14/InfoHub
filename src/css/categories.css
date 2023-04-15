@@ -1,5 +1,6 @@
-section{
+#category--main{
     height: 90vh;
+    width: 100%;
 }
 #category-grid{
     display: grid;
@@ -10,14 +11,9 @@ section{
     margin: 40px 20px;
 }
 .cat-grid-item{
-    background: linear-gradient(70deg, rgba(0, 0, 0, 0), rgb(247, 246, 246), rgba(0, 0, 0, 0), rgb(247, 247, 247));
-    background-size: 300% 100%;
-    background-repeat: no-repeat;
-    background-position: 100%;
     border-radius: 10px;
-    animation: slide 0.8s infinite;
     border: 1px solid rgb(231, 231, 231);
-    overflow: hidden;
+    background: black;
 }
 .cat-img {
     width: 100%;
@@ -26,8 +22,6 @@ section{
 .cat-link{
     border: 0px;
 }
-@keyframes slide {
-    to {
-        background-position: 0%;
-      }
+#cat--heading{
+    font-size: 1.8em;
 }

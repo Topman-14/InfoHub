@@ -1,0 +1,59 @@
+#hero >p {
+    margin-bottom: 10px;
+}
+#top-picks{
+    width: 100%;
+    
+}
+#news-grid > a{
+    border-radius: 20px;
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0), rgb(247, 246, 246), rgba(0, 0, 0, 0), rgb(247, 247, 247));
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    animation: slide 0.8s infinite;
+    border: 1px solid rgb(202, 202, 202);
+    overflow: hidden;
+}
+
+#news-grid {
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 0.7fr 1fr 0.7fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "first second third"
+        "fourth second fifth"
+    ;
+    grid-gap: 14px;
+    margin: 30px auto 50px auto;
+}
+
+#news-grid> a:nth-of-type(1) {
+    grid-area: first;
+}
+
+#news-grid> a:nth-of-type(2) {
+    grid-area: second;
+    min-height: 100%;
+}
+
+#news-grid> a:nth-of-type(3) {
+    grid-area: third;
+}
+
+#news-grid> a:nth-of-type(4) {
+    grid-area: fourth;
+}
+
+#news-grid> a:nth-of-type(5) {
+    grid-area: fifth;
+}
+
+@keyframes slide {
+    to {
+        background-position: 0%;
+      }
+}

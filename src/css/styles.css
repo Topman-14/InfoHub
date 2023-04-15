@@ -14,13 +14,14 @@ body {
     margin: 0px;
     background-color: var(--body-color);
     font: 500 1.1em var(--primary-font);
+    display: flex;
+    flex-direction: column;
 }
 
 #main-navbar {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    /* position: fixed; */
     top: 0;
     transition: top 0.3s;
 }
@@ -44,6 +45,7 @@ nav>ul {
     color: var(--accent-color);
     border-radius: 20px;
     padding: 8px;
+    font-size: 0.8em;
 }
 
 nav>ul>li {
@@ -54,7 +56,7 @@ nav>ul>li:hover {
     transform: scale(1.1);
 }
 
-.nav-link[aria-current= "page"] {
+.nav-link[aria-current="page"] {
     background-color: var(--active-link-bgcolor);
     color: var(--active-link-color);
 }
@@ -63,14 +65,9 @@ nav>ul>li:hover {
     height: 35px;
 }
 
-hr {
-    margin: 10px auto;
-    width: 70%;
-}
-
 section{
-    padding-inline: 10px;
-    max-width: 1200px;
+    padding-inline: 20px;
+    max-width: 1100px;
     margin: 0 auto;
     font-size: 1em;
 }
@@ -79,26 +76,49 @@ h2{
     color: var(--heading-color);
     font-size: 2em;
     font-weight: 500;
+    margin: 20px 0;
+}
+
+hr {
+    margin-top: 10px;
+    width: 70%;
 }
 
 #footer {
-    padding: 5% 15% 0px 15%;
-    background: var(--accent-color);
-    height: 30vh;
+    background: var(--accent-color); 
     color: var(--body-color);
-    font-size: 0.85em;
+    max-width: none;
+    font-size: 0.8em;
 }
-
-#footer-nav > ul {
-    padding: 0;
-    margin-block: 20px;
+#footer>p {
+    max-width: 70%;
+    margin: 30px auto;
 }
 #footer-nav {
-    font-size: 1rem;
     width: 70%;
     max-width: 400px;
+    margin-left: 14%;
+}
+#footer-nav > ul {
+    padding: 0;
+    margin-block: 18px;
 }
 #footer > hr{
     width: auto;
-    margin-block: 30px;
+    margin: 20px auto 30px auto;
 }
+::-webkit-scrollbar{
+    width: 0.5em;
+    height: 0em;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0)
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(145, 142, 142);
+    border-radius: 10vw;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(82, 82, 85);
+}
+
