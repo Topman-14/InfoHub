@@ -22,7 +22,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    /* position: fixed; */
     top: 0;
     transition: top 0.3s;
 }
@@ -65,61 +64,9 @@ nav>ul>li:hover {
     height: 35px;
 }
 
-hr {
-    margin-top: 10px;
-    width: 70%;
-}
-
-.footer-hr {
-    margin-top: 10px;
-    width: 70%;
-    bottom: 26px;
-    background-color: rgb(145, 142, 142);
-    position: absolute;
-}
-
-#footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: var(--accent-color);
-    height: auto;
-    width: 100vw;
-    padding-top: 1px;
-    color: var(--body-color);
-}
-
-#footer p {
-    max-width: 70%;
-    margin: 55px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
-#footer-nav {
-    position: relative;
-    font-size: 1rem;
-    bottom: 30px;
-    right: 20vw;
-}
-
-.footer-bottom {
-    background: var(--accent-color);
-    width: 100vw;
-    min-height: 40px;
-    margin: 10px auto;
-    width: 70%;
-}
-
 section{
-    padding-inline: 10px;
-    max-width: 1200px;
+    padding-inline: 20px;
+    max-width: 1100px;
     margin: 0 auto;
     font-size: 1em;
 }
@@ -128,26 +75,33 @@ h2{
     color: var(--heading-color);
     font-size: 2em;
     font-weight: 500;
+    margin: 20px 0;
+}
+
+hr {
+    margin-top: 10px;
+    width: 70%;
 }
 
 #footer {
-    padding: 5% 15% 0px 15%;
-    background: var(--accent-color);
-    height: 30vh;
+    background: var(--accent-color); 
     color: var(--body-color);
-    font-size: 0.85em;
+    max-width: none;
+    font-size: 0.8em;
 }
-
-#footer-nav > ul {
-    padding: 0;
-    margin-block: 20px;
+#footer>p {
+    max-width: 70%;
+    margin: 30px auto;
 }
 #footer-nav {
-    font-size: 1rem;
     width: 70%;
     max-width: 400px;
+    margin-left: 14%;
+}
+#footer-nav > ul {
+    padding: 0;
+    margin-block: 18px;
 }
 #footer > hr{
-    width: auto;
-    margin-block: 30px;
+    margin: 20px auto 30px auto;
 }
