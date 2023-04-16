@@ -1,0 +1,29 @@
+#contributors-header{
+    font-size: 1.8em;
+    text-align: center;
+}
+#cont-grid{
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin: 50px 0px;
+
+}
+.cont-grid-item{
+    border-radius: 15px;
+    box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.308);
+    max-width: 246px;
+}
+.cont-grid-item > h3{
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    padding-inline:10px;
+}
+
+.cont-grid-item > div > a > img{
+    height: 35px;
+}
