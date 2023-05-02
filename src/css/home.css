@@ -7,7 +7,7 @@
 }
 #news-grid > a{
     border-radius: 20px;
-    background: linear-gradient(70deg, rgba(0, 0, 0, 0), rgb(247, 246, 246), rgba(0, 0, 0, 0), rgb(247, 247, 247));
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0), rgb(245, 245, 245), rgba(0, 0, 0, 0), rgb(247, 247, 247));
     background-size: 300% 100%;
     background-repeat: no-repeat;
     background-position: 100%;
