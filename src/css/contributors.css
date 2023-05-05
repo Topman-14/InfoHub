@@ -10,6 +10,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
     margin: 50px 0px;
+    
 
 }
 .cont-grid-item{
@@ -23,11 +24,15 @@
     padding: 15px 10px;
 }
 #profile-img{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background: black;
     margin-top: 20px;
+    overflow: hidden;
+}
+#profile-img > img{
+    height:100%;
 }
 .cont-grid-item > h3{
     font-weight: 500;

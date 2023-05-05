@@ -37,16 +37,16 @@ const categories = [
         'image':'/assets/images/sports.png',
     },
     {
-        'title':'Tech',
-        'image':'/assets/images/tech.png',
+        'title':'Science',
+        'image':'/assets/images/science.jpg',
     },
     {
-        'title':'Tech',
-        'image':'/assets/images/tech.png',
+        'title':'Environment',
+        'image':'/assets/images/environment.jpg',
     },
     {
-        'title':'Tech',
-        'image':'/assets/images/tech.png',
+        'title':'Random',
+        'image':'/assets/images/random.png',
     },
 ]
 
