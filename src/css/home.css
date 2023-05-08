@@ -51,7 +51,6 @@
 #news-grid> a:nth-of-type(5) {
     grid-area: fifth;
 }
-
 @keyframes slide {
     to {
         background-position: 0%;
