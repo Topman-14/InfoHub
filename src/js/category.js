@@ -1,17 +1,30 @@
 import {config} from "./config.js";
-const api_key = config.APP_ID;
+let api_key = config.APP_ID;
 const banner = document.querySelector('#banner');
 const triNewsWrapper = document.querySelector('#tri_news_wrapper');
 const sideNewsWrapper = document.querySelector('#side_news_wrapper');
+const newsTiles = document.getElementsByClassName('news_tile');
 
 
 const pickedCategory = localStorage.getItem("category");
 const pageHeader = document.querySelector('#page_header');
 pageHeader.textContent = `${(pickedCategory == "Technology")? "Tech" : pickedCategory} News`;
-
+document.title = `InfoHub | ${(pickedCategory == "Technology")? "Tech" : pickedCategory} News`;
 
 async function logJSONData() {
-    const response = await fetch(`https://newsdata.io/api/1/news?apikey=${api_key}&category=${(pickedCategory == "Random")? "top": pickedCategory}&language=en`);
+    let response;
+    try{
+         response = await fetch(`https://newsdata.io/api/1/news?apikey=${api_key}&category=${(pickedCategory == "Random")? "top": pickedCategory}&language=en`);
+    } catch{
+        api_key = config.APP_ID2;
+        try {
+            response = await fetch(`https://newsdata.io/api/1/news?apikey=${api_key}&category=${(pickedCategory == "Random")? "top": pickedCategory}&language=en`);
+        }catch{
+            api_key = config.APP_ID3;
+            response = await fetch(`https://newsdata.io/api/1/news?apikey=${api_key}&category=${(pickedCategory == "Random")? "top": pickedCategory}&language=en`); 
+        }
+    }
+    console.log(api_key)
     const jsonData = await response.json();
     let imgResults = jsonData.results.filter((item)=> item.image_url != null );
     let nonImgResults = jsonData.results.filter((item)=> item.image_url == null );
@@ -21,6 +34,7 @@ async function logJSONData() {
     if(imgResults.length < 4 || nonImgResults.length < 5){
         let nxtPage = jsonData.nextPage;
         let r = await fetch(`https://newsdata.io/api/1/news?apikey=${api_key}&category=${(pickedCategory == "Random")? "top": pickedCategory}&language=en&page=${nxtPage}`);
+        console.log(api_key);
         let jsonData2 = await r.json();
         
         nxtPage = jsonData2.nextPage;
@@ -41,8 +55,15 @@ async function logJSONData() {
         <p class="tri_news_title">${(item.title.length >= 91)? (item.title.slice(0, 90) + "...") : item.title}</p></div>`).join(" ");
 
         sideNewsWrapper.innerHTML = pageContent.slice(4, 9).map(item => `<div class="news_tile" style="background:white;"><p class="side_news_title">${(item.title.length >= 110)? (item.title.slice(0, 109) + "...") : item.title}</p></div>`).join(" ");
+
+        for (let i = 0; i < newsTiles.length; i++) {
+            newsTiles[i].addEventListener("click", ()=>{
+                window.open(`${pageContent[i].link}`);
+            })
+            
+        }
     }
     }
     getFourImg();
 }
-logJSONData()
+logJSONData();
