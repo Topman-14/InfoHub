@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/css/styles.css">
-    <link rel="stylesheet" href="/src/css/categories.css">
-
-    <title>InfoHub | Categories</title>
+    <link rel="stylesheet" href="/src/css/category.css">
+    <title>InfoHub | Contributors</title>
 </head>
 <body>
     <nav id="main-navbar">
@@ -21,12 +20,36 @@
         </ul>
     </nav>
     <hr>
+
     <section id="category--main">
-    <h2 id="cat--heading">Find news that suites you</h2>
-        <div id="category-grid">
+        <h2 id="page_header"></h2>
+        <div id="wrapper_all">
+            <div id="main_news_wrapper">
+                <div id="banner" class="news_tile">
+                    <p id="banner_news_title"></p>
+                </div>
+                <div id="tri_news_wrapper">
+                    <div class="news_tile">
+                        <p class="tri_news_title"></p>
+                    </div>
+                    <div class="news_tile">
+                        <p class="tri_news_title"></p>
+                    </div>
+                    <div class="news_tile">
+                        <p class="tri_news_title"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="side_news_wrapper">
+                <div class="news_tile"><p class="side_news_title"></p></div>
+                <div class="news_tile"><p class="side_news_title"></p></div>
+                <div class="news_tile"><p class="side_news_title"></p></div>
+                <div class="news_tile"><p class="side_news_title"></p></div>
+                <div class="news_tile"><p class="side_news_title"></p></div>
+            </div>
         </div>
-        <hr>
     </section>
+
     <section id="footer">
         <p>
         Whether you're looking for up-to-the-minute updates on the latest breaking news or in-depth coverage of the issues that shape our world, InfoHub has you covered. With a commitment to providing reliable information, InfoHub is your trusted source for news and analysis.
@@ -42,6 +65,6 @@
         <hr>
     </section>
     <script src="/src/js/script.js"></script>
-    <script type="module" src="/src/js/categories.js" ></script>
+    <script type="module" src="/src/js/category.js"></script>
 </body>
 </html>

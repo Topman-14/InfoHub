@@ -1,7 +1,9 @@
-const catGrid = document.querySelector('#category-grid')
+import {config} from "./config.js";
+const catGrid = document.querySelector('#category-grid');
+const catGridItems = document.getElementsByClassName('cat-grid-item');
 const categories = [
     {
-        'title':'Tech',
+        'title':'Technology',
         'image':'/assets/images/tech.png',
     },
     {
@@ -9,7 +11,7 @@ const categories = [
         'image':'/assets/images/business.png',
     },
     {
-        'title':'Education',
+        'title':'Tourism',
         'image':'/assets/images/education.png',
     },
     {
@@ -17,7 +19,7 @@ const categories = [
         'image':'/assets/images/entertainment.png',
     },
     {
-        'title':'Fashion',
+        'title':'World',
         'image':'/assets/images/fashion.png',
     },
     {
@@ -37,23 +39,29 @@ const categories = [
         'image':'/assets/images/sports.png',
     },
     {
-        'title':'Tech',
-        'image':'/assets/images/tech.png',
+        'title':'Science',
+        'image':'/assets/images/science.png',
     },
     {
-        'title':'Tech',
-        'image':'/assets/images/tech.png',
+        'title':'Environment',
+        'image':'/assets/images/environment.png',
     },
     {
-        'title':'Tech',
-        'image':'/assets/images/tech.png',
+        'title':'Random',
+        'image':'/assets/images/random.png',
     },
-]
-
+];
 const catElements = categories.map(item => {
     return `<div class="cat-grid-item" style="background:url(${item.image}) no-repeat 50%/cover;">
         <p class="cat-text">${item.title}</p>
     </div>`
-}).join('')
-
+}).join('');
 catGrid.innerHTML = catElements;
+
+for (let i = 0; i < catGridItems.length; i++) {
+    catGridItems[i].addEventListener('click', ()=>{
+        localStorage.setItem("category", categories[i].title);
+        window.open("./category.html");
+    });
+    
+}

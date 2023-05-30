@@ -4,10 +4,10 @@
     --heading-color: rgb(68, 68, 68);
     --body-color: #ffffff;
     --accent-color: black;
-    --secondary-color: rgb(238, 237, 237);
+    --secondary-color: rgb(221, 220, 220);
     --active-link-bgcolor: rgb(0, 0, 0);
     --active-link-color: rgb(255, 255, 255);
-    --primary-font: 'Jost', sans-serif;
+    --primary-font: 'Jost', 'Trebuchet MS', sans-serif;
 }
 
 body {
@@ -115,7 +115,7 @@ hr {
     margin: 20px auto 30px auto;
 }
 ::-webkit-scrollbar{
-    width: 0.5em;
+    width: 0.3em;
     height: 0em;
 }
 ::-webkit-scrollbar-track{

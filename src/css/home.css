@@ -5,16 +5,44 @@
     width: 100%;
     
 }
-#news-grid > a{
+#news-grid > div{
     border-radius: 20px;
+    border: 1px solid rgb(202, 202, 202);
     background: linear-gradient(70deg, rgba(0, 0, 0, 0), rgb(245, 245, 245), rgba(0, 0, 0, 0), rgb(247, 247, 247));
     background-size: 300% 100%;
     background-repeat: no-repeat;
     background-position: 100%;
     animation: slide 0.8s infinite;
-    border: 1px solid rgb(202, 202, 202);
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(255, 255, 255);   
     overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.267);
 }
+.news-cards{
+    padding-inline: 13px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    line-height: 1em;
+    transition: 0.3s;
+}
+.news-tag{
+    margin: 0px;
+    padding: 5px 10px 6px 10px;
+    letter-spacing: 1px;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.788);
+    font-weight: 600;
+    border: 2px solid;
+}
+.news-title{
+    margin: 10px 0 8px 0;
+}
+
 
 #news-grid {
     width: 100%;
@@ -31,29 +59,32 @@
     margin: 30px auto 25px auto;
 }
 
-#news-grid> a:nth-of-type(1) {
+#news-grid> div:nth-of-type(1) {
     grid-area: first;
 }
 
-#news-grid> a:nth-of-type(2) {
+#news-grid> div:nth-of-type(2) {
     grid-area: second;
-    min-height: 100%;
 }
 
-#news-grid> a:nth-of-type(3) {
+#news-grid> div:nth-of-type(3) {
     grid-area: third;
 }
 
-#news-grid> a:nth-of-type(4) {
+#news-grid> div:nth-of-type(4) {
     grid-area: fourth;
 }
 
-#news-grid> a:nth-of-type(5) {
+#news-grid> div:nth-of-type(5) {
     grid-area: fifth;
 }
-
 @keyframes slide {
     to {
         background-position: 0%;
       }
+}
+@keyframes scalebg {
+    to{
+        background-position: 0%
+    }
 }
