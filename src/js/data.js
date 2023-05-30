@@ -1,9 +1,5 @@
-Technology
 
-{
-    "status": "success",
-    "totalResults": 872,
-    "results": [
+ [
     {
     "title": "Some Instagram users against the new ‘Top posts’ & ‘Recent top posts’ hashtag sorting",
     "link": "https://piunikaweb.com/?p=1347010",
@@ -242,21 +238,8 @@ Technology
     "india"
     ],
     "language": "english"
-    }
-    ],
-    "nextPage": "1683516299346ae60b0b6d80ab7047e388c5b49978"
-    }
-
-
-
-=====================================================
-
-Science
+    },
     {
-        "status": "success",
-        "totalResults": 354,
-        "results": [
-        {
         "title": "Alternative communication modes for non-vocal children",
         "link": "https://bhutantimes.bt/index.php/2023/05/08/alternative-communication-modes-for-non-vocal-children/",
         "keywords": [
@@ -321,39 +304,6 @@ Science
         ],
         "country": [
         "nigeria"
-        ],
-        "language": "english"
-        },
-        {
-        "title": "Elon Musk provides critical context on hotly-debated “emerald mine” story",
-        "link": "https://www.teslarati.com/elon-musk-dad-emerald-mine-story-finally-explained/",
-        "keywords": [
-        "News",
-        "Elon Musk",
-        "Featured",
-        "Tesla"
-        ],
-        "creator": [
-        "Simon Alvarez"
-        ],
-        "video_url": null,
-        "description": "There are several points of legitimate criticism that are directed at Tesla and SpaceX CEO Elon Musk. Among the most persistent involves claims about an emerald mine, which critics on social media have related to Musk’s fortune and success being built on the back of “stolen jewels,” “blood diamonds,” or “apartheid,” for that matter. Considering […] The post Elon Musk provides critical context on hotly-debated “emerald mine” story appeared first on TESLARATI.",
-        "content": "There are several points of legitimate criticism that are directed at Tesla and SpaceX CEO Elon Musk. Among the most persistent involves claims about an emerald mine, which critics on social media have related to Musk’s fortune and success being built on the back of “stolen jewels,” “blood diamonds,” or “apartheid,” for that matter. Considering the prevalence of the story, it was no wonder that the claim emerged on Twitter this weekend. This time around, it came in the form of a Community Note on Twitter, which responded to a user’s post stating that Musk had come to the US with no money and graduated with over $100,000 in debt, and that the CEO worked two jobs while he was at school. As per the Community Note, which has since disappeared from the post, the post was reportedly “misleading” because Musk “was born into an extremely wealthy family in South Africa.” The Community Note received polarizing reactions on Twitter, with supporters of the CEO stating that it was inaccurate and critics celebrating it. It should be noted that the Musk family’s relation to an emerald mine was referenced years ago, initially in two reports from Business Insider South Africa from 2018. The reports were based on comments from Errol Musk , Elon Musk’s father, who told the publication, among other things, that Elon and Kimbal at one time sold a pair of emeralds to Tiffany’s in New York City for about $2,000, and that the Musk family was so wealthy that they had difficulty closing their safe. Now, the idea of Tiffany’s purchasing emeralds from teenagers who walked in the store may be a bit suspect, as such practices are more commonly affiliated with traditional pawnshops, and the idea of a safe not being closed easily because of too much money inside may sound cartoony, but Business Insider South Africa ran with the story anyway. At the end of the article, however, the publication noted that Errol’s story could not be confirmed by Elon because the father and son have a complicated history. What is rather interesting here is that Musk has actually referenced an emerald mine in past interviews as well. In a 2014 interview with Forbes , Musk noted that “This is going to sound slightly crazy, but my father also had a share in an Emerald mine in Zambia.” In posts on Twitter in December 2019, however, Musk noted that his father “didn’t own an emerald mine.” Granted, there’s a notable difference between “owning” a mine and “having a share” in one, but the apparent change in Musk’s narrative is notable. Fortunately, Musk’s recent post on Twitter provided some critical context on why his own interviews and later posts and comments contradict each other. As noted by Musk in his recent post, he actually believed that it was true for some time because his father told him that he owned a share in a mine in Zambia. However, it appears that nobody has really seen the mine, and he and his brother Kimbal are still financially supporting their father, even until today. Musk also shared some thoughts on his complicated relationship with his father. “Our condition of providing him financial support was that he not engage in bad behavior. Unfortunately, he nonetheless did. There are young children involved, so we continued to provide financial support for their well-being. Regarding the so-called “emerald mine”, there is no objective evidence whatsoever that this mine ever existed. He told me that he owned a share in a mine in Zambia, and I believed him for a while, but nobody has ever seen the mine, nor are there any records of its existence. If this mine was real, he would not require financial support from my brother and me,” Musk wrote. I grew up in a lower, transitioning to upper, middle income situation, but did not have a happy childhood. Haven’t inherited anything ever from anyone, nor has anyone given me a large financial gift. My father created a small electrical/mechanical engineering company that was… Whether or not Musk is telling the complete truth in his recent post on Twitter is still up for question. That being said, Musk’s post does explain why his comments and stance on his father’s emerald mine stake have changed over the years. If his post is accurate, then it is true that he believed that his father had a share in an emerald mine in the past, but it is also true that he is very skeptical of the claim today. His recent comments then, one of which is offering 1 million Dogecoins to anyone who can trace the emerald mine related to his father, would make sense. Maye Musk , Elon Musk’s mother, also provided her own thoughts on the matter. As per Maye, she was made aware of the emerald mine story on Twitter about ten years ago. That being said, she also highlighted that when she and her children moved to Toronto in 1989, they stayed at a one-bedroom apartment and later a rent-controlled unit, hardly the accommodations of an extremely wealthy family from South Africa. When we moved to Toronto in 1989, we stayed in a one-bedroom apartment until I found a rent-controlled apartment, which took us three weeks to clean up. We all worked, were happy and optimistic. The first I heard of an emerald mine was on @Twitter about 10 years ago. Thanks for… https://t.co/6gIdvj9Yel To be fair, recent comments from Errol Musk also suggested that the emerald mine that he had a share in was not some grand operation that resulted in generational wealth. “What Elon is saying is that there was no formal mine. It was a rock formation protruding from the ground in the middle of nowhere. There was no mining company. There are no signed agreements or financial statements. No one owned anything. The deal was done on a handshake with the Italian man at a time when Zambia was a free for all. Not even he knew exactly where the border was. At that time, it was like the Wild West,” Errol Musk told news.com.au . Don’t hesitate to contact us with news tips. Just send a message to simon@teslarati.com to give us a heads-up.",
-        "pubDate": "2023-05-08 03:52:26",
-        "image_url": null,
-        "source_id": "teslarati",
-        "category": [
-        "science",
-        "technology"
-        ],
-        "country": [
-        "australia",
-        "canada",
-        "united kingdom",
-        "india",
-        "saudi arabia",
-        "singapore",
-        "united states of america"
         ],
         "language": "english"
         },
@@ -513,19 +463,8 @@ Science
         "united kingdom"
         ],
         "language": "english"
-        }
-        ],
-        "nextPage": "168347917045d15d8583bf4957bdbe696155f9f6eb"
-        }
-
-
-        business
-
+        },
         {
-            "status": "success",
-            "totalResults": 1881,
-            "results": [
-            {
             "title": "FBR officers request leave until June to protest against low salary amid soaring inflation",
             "link": "https://thecurrent.pk/low-salary-fbr/",
             "keywords": [
@@ -810,24 +749,11 @@ Science
             "singapore"
             ],
             "language": "english"
-            }
-            ],
-            "nextPage": "1683531960db3f5dd8e73bdaad4ec13fde31e81002"
-            }
-
-
-
-
-            entertainment
-
-            {
-                "status": "success",
-                "totalResults": 2167,
-                "results": [
-                {
-                "title": "Synthetic Diamonds Are Wildly Cheaper Than Natural Ones. So What’s The Catch?",
-                "link": "https://www.huffpost.com/entry/difference-between-natural-and-lab-grown-diamonds_l_6440421be4b04997b56f21ac",
-                "keywords": null,
+            },
+{
+     "title": "Synthetic Diamonds Are Wildly Cheaper Than Natural Ones. So What’s The Catch?",
+    "link": "https://www.huffpost.com/entry/difference-between-natural-and-lab-grown-diamonds_l_6440421be4b04997b56f21ac",
+    "keywords": null,
                 "creator": null,
                 "video_url": null,
                 "description": "Mined and simulated diamonds differ greatly when it comes to price — and synthetic diamonds might not be as sustainable as you thought.",
@@ -1064,19 +990,8 @@ Science
                 "india"
                 ],
                 "language": "english"
-                }
-                ],
-                "nextPage": "16835215929914b7e2cbe5a68d79c5dbdf036a2a31"
-                }
-
-
-politics
-
+                },
 {
-    "status": "success",
-    "totalResults": 768,
-    "results": [
-    {
     "title": "Bhutan’s Press Freedom Index nosedives",
     "link": "https://bhutantimes.bt/index.php/2023/05/08/bhutans-press-freedom-index-nosedives/",
     "keywords": [
@@ -1292,17 +1207,8 @@ politics
     "india"
     ],
     "language": "english"
-    }
-    ],
-    "nextPage": "16835213055889f622e12d1315a40c68e495044e1d"
-    }
-
-
+    },
     {
-"status": "success",
-"totalResults": 206,
-"results": [
-{
 "title": "News24.com | NASA launches two small satellites to track hurricanes",
 "link": "https://www.news24.com/fin24/Climate_Future/News/nasa-launches-two-small-satellites-to-track-hurricanes-20230508",
 "keywords": null,
@@ -1535,19 +1441,8 @@ politics
 "united kingdom"
 ],
 "language": "english"
-}
-],
-"nextPage": "1683483406e946d1392f3c5b13f6c49ae965122b11"
-}
-
-
-evironment
-
+},
 {
-    "status": "success",
-    "totalResults": 206,
-    "results": [
-    {
     "title": "News24.com | NASA launches two small satellites to track hurricanes",
     "link": "https://www.news24.com/fin24/Climate_Future/News/nasa-launches-two-small-satellites-to-track-hurricanes-20230508",
     "keywords": null,
@@ -1780,20 +1675,8 @@ evironment
     "united kingdom"
     ],
     "language": "english"
-    }
-    ],
-    "nextPage": "1683483406e946d1392f3c5b13f6c49ae965122b11"
-    }
-
-
-    health
-
-
+    },
     {
-        "status": "success",
-        "totalResults": 589,
-        "results": [
-        {
         "title": "Health authorities on alert after Congo virus kills two",
         "link": "https://thefrontierpost.com/health-authorities-on-alert-after-congo-virus-kills-two/",
         "keywords": [
@@ -2018,18 +1901,8 @@ evironment
         "singapore"
         ],
         "language": "english"
-        }
-        ],
-        "nextPage": "1683504000ce0ef0dba56eaa37e34f62831674908e"
-        }
-
-
-food 
+        },
 {
-    "status": "success",
-    "totalResults": 36,
-    "results": [
-    {
     "title": "King Charles III's coronation - the best and worst dressed guests",
     "link": "https://www.euronews.com/culture/2023/05/07/king-charles-iiis-coronation-the-best-and-worst-dressed-guests",
     "keywords": null,
@@ -2239,6 +2112,4 @@ food
     ],
     "language": "english"
     }
-    ],
-    "nextPage": "1683441002783916b1da84b171222d876c07a9ca5d"
-    }
+]

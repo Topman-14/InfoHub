@@ -1,3 +1,3 @@
-const config = {
-    'APP_ID': "pub_18736014726a2dfc2ea4b7fccb38bd90918ed"
-}
+export var config = {
+    'APP_ID': "pub_224232f59fe7aab19d5aaf07789577d4f3a29"
+};

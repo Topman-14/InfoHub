@@ -1,0 +1,121 @@
+#category--main{
+    max-width: 1000px;
+    width: 100%;
+}
+#category--main>h2{
+    text-align: left;
+    margin-block: 10px;
+}
+#wrapper_all{
+    display: flex;
+    height:80vh;
+    gap: 15px;
+}
+#wrapper_all p{
+    margin: 0;
+}
+#main_news_wrapper{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner{
+    height: 40%;
+    border-radius: 15px;
+    width: 95%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.295);
+    margin-top: 15px;
+    transition: 0.3s;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+#banner>p{
+    line-height: 1em;
+}
+#banner:hover{
+    scale: 1.01;
+}
+#tri_news_wrapper{
+    display: flex;
+    height: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 95%;
+    margin-top: 25px;
+}
+#tri_news_wrapper>div{
+    height: 90%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.295);
+    transition: 0.3s;
+    padding: 8px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+#tri_news_wrapper>div>img{
+    width: 100%;
+    border-radius: 10px;
+    height: 50%;
+    object-fit: cover;
+}
+#tri_news_wrapper>div>p{
+    margin-top: 5px;
+}
+#tri_news_wrapper>div:hover{
+    transform: translateY(-8px);
+}
+#side_news_wrapper{
+    overflow-y: scroll;
+    width: 30%;
+    padding: 20px 14px;
+    height: 85%;
+    margin-top: 10px;
+}
+#side_news_wrapper>div{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.178);
+    width: 85%;
+    height: 92px;
+    border-radius: 15px;
+    margin-top: -13px;
+    transition: 0.3s;
+    padding: 8px;
+    color: rgb(20, 20, 20);
+    font-size: 0.9em;
+    line-height: 1.1em;
+}
+#side_news_wrapper>div:hover{
+    margin-bottom:13px;
+}
+.news_tile{
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0), rgb(245, 245, 245), rgba(0, 0, 0, 0), rgb(247, 247, 247));
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    animation: slide 0.8s infinite;
+    cursor: pointer;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);   
+}
+@keyframes slide {
+    to {
+        background-position: 0%;
+      }
+}
+@media (max-width:875px) {
+    #side_news_wrapper{
+        display: none;
+    }
+    #wrapper_all{
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #main_news_wrapper{
+        width: 100%;
+    }
+}
