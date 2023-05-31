@@ -9,7 +9,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
-    margin: 50px 0px;
+    margin: 30px 0px;
     
 
 }
@@ -22,17 +22,22 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 15px 10px;
+    transition: 0.3s;
 }
-#profile-img{
+.cont-grid-item:hover{
+    scale: 1.01;
+}
+.profile-img{
     height: 100px;
     width: 100px;
-    border-radius: 50%;
-    background: black;
     margin-top: 20px;
-    overflow: hidden;
+    box-shadow: 0 0 1px 3px rgb(224, 224, 224);
+    border-radius: 100%;
+    
 }
-#profile-img > img{
+.profile-img > img{
     height:100%;
+    border-radius: 50%;
 }
 .cont-grid-item > h3{
     font-weight: 500;
