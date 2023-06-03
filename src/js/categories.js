@@ -3,51 +3,51 @@ const catGridItems = document.getElementsByClassName('cat-grid-item');
 const categories = [
     {
         'title':'Technology',
-        'image':'/src/assets/images/tech.png',
+        'image':'assets/images/tech.png',
     },
     {
         'title':'Business',
-        'image':'/src/assets/images/business.png',
+        'image':'assets/images/business.png',
     },
     {
         'title':'Tourism',
-        'image':'/src/assets/images/education.png',
+        'image':'assets/images/education.png',
     },
     {
         'title':'Entertainment',
-        'image':'/src/assets/images/entertainment.png',
+        'image':'assets/images/entertainment.png',
     },
     {
         'title':'World',
-        'image':'/src/assets/images/fashion.png',
+        'image':'assets/images/fashion.png',
     },
     {
         'title':'Food',
-        'image':'/src/assets/images/food.png',
+        'image':'assets/images/food.png',
     },
     {
         'title':'Health',
-        'image':'/src/assets/images/health.png',
+        'image':'assets/images/health.png',
     },
     {
         'title':'Politics',
-        'image':'/src/assets/images/politics.png',
+        'image':'assets/images/politics.png',
     },
     {
         'title':'Sports',
-        'image':'/src/assets/images/sports.png',
+        'image':'assets/images/sports.png',
     },
     {
         'title':'Science',
-        'image':'/src/assets/images/science.png',
+        'image':'assets/images/science.png',
     },
     {
         'title':'Environment',
-        'image':'/src/assets/images/environment.png',
+        'image':'assets/images/environment.png',
     },
     {
         'title':'Random',
-        'image':'/src/assets/images/random.png',
+        'image':'assets/images/random.png',
     },
 ];
 const catElements = categories.map(item => {
