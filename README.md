@@ -7,7 +7,7 @@
 <p style="font-size:15px;">InfoHub is your one-stop destination for the most recent headlines and breaking news from across the globe. No matter where you are, you can use our app to remain up to date on the most significant news stories and events as they develop.</p>
 </div>
 
-While the project is still in development, we anticipate using our [design templates](assets/design%20templates) to reproduce each screen.
+The website is live at https://info-hub.netlify.app/
 
 # Contribution 🌟
 Are you interested in making any contribution to the project?. Be sure to follow the [contribution guidelines](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md) while making your contributions. If you love this project, kindly give it a star ⭐ and share it with others 🤗.
