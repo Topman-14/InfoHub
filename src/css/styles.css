@@ -30,6 +30,20 @@ body {
     height: 40px;
 }
 
+#menu_close{
+    display: none;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 0.8em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#menu_close:hover{
+    scale: 1.1;
+}
+
 nav>ul {
     list-style-type: none;
     display: flex;
@@ -116,16 +130,89 @@ hr {
 }
 ::-webkit-scrollbar{
     width: 0.3em;
-    height: 0em;
+    height: 0.3em;
 }
 ::-webkit-scrollbar-track{
     background: rgba(0, 0, 0, 0)
 }
 ::-webkit-scrollbar-thumb{
     background: rgb(145, 142, 142);
-    border-radius: 10vw;
+    border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
     background: rgb(82, 82, 85);
 }
 
+#menu{
+    height: 100vh;
+    background: rgba(255, 255, 255, 0);
+    position: absolute;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.4s;
+    display: none;
+}
+#menu >nav{
+    background: rgba(150, 7, 233, 0.836);
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius:50px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+}
+#menu >nav > ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 250px;
+}
+.mobile-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+@keyframes slide-out {
+    0%{
+        opacity: 0;
+        transform: translateX(35px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slide-in {
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateX(35px);
+    }
+}
+
+@media (max-width:650px) {
+    #logo {
+        height: 30px;
+    }
+    #main-navbar ul{
+        display: none;
+    }
+    #footer-nav ul{
+        display: none;
+    }
+    #menu_close{
+        display: block;
+    }
+    h2{
+        font-size: 1.5em !important; 
+        font-size: 1.5em !important; 
+    }
+    
+}
