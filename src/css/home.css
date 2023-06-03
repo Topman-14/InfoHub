@@ -2,7 +2,7 @@
     margin-bottom: 10px;
 }
 #top-picks{
-    width: 100%;
+    width: 70%;
     
 }
 #news-grid > div{
@@ -46,7 +46,7 @@
 
 #news-grid {
     width: 100%;
-    height: 75vh;
+    min-height: 75vh;
     display: grid;
     place-content: center;
     grid-template-columns: 0.7fr 1fr 0.7fr;
@@ -86,5 +86,21 @@
 @keyframes scalebg {
     to{
         background-position: 0%
+    }
+}
+@media (max-width:1140px) {
+    #news-grid {
+        width: 100%;
+        min-height: 75vh;
+        display: block;
+        margin: 30px auto 25px auto;
+    }
+    #news-grid > div{
+        height: 200px;
+        max-width:400px;
+        margin: 20px auto;
+    }
+    #top-picks > h2{
+        text-align: center;
     }
 }
