@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/infohub.svg" alt="InfoHub" style="display: block; margin: 0 auto width="200" height="200"/>
+<img src="src/assets/infohub.svg" alt="InfoHub" style="display: block; margin: 0 auto width="200" height="200"/>
 </div>
 
 <div align="center">
